@@ -1,4 +1,4 @@
-#' Add together two numbers
+#' Add  together two numbers
 #'
 #' @param x A number
 #' @param y A number
