@@ -16,3 +16,5 @@
 #' @param c a numeric that is such that f(x) ≤ C for all values of x
  
 #' @return a random sample of size n from the rv with pdf provided to the function, using rejection sampling
+#' @export
+#' 
