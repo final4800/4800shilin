@@ -1,6 +1,6 @@
-#' 4800shilin package
+#' package4800
 #' 
-#' R package that implements sampling from a continuous random variable.
+#' sampling from continuous distributions, given their pdfs
 #' 
 #' @docType package
 #'
