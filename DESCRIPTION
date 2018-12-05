@@ -1,0 +1,10 @@
+Package: 4800shilin
+Type: Package
+Title: sampling from continuous distributions, given their pdfs
+Version: 0.1.0
+Author: shilin zheng
+Maintainer: shilin zheng <shilinzheng@slu.edu>
+Description: sampling from continuous distributions, given their pdfs
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
