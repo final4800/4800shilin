@@ -13,3 +13,6 @@ library(roxygen2)
 load_options(base_path = title)
 
 library(devtools)
+
+
+roxygen2::roxygenise()
