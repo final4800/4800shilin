@@ -12,7 +12,6 @@
  
 #' @return a random sample of size n from the rv with pdf provided to the function, using rejection sampling
 #' @export
-#' 
 
 rvsample <- function(n, pdf, lb, ub, c){
   integratepdf <- integrate(pdf,lb,ub)
@@ -25,5 +24,4 @@ rvsample <- function(n, pdf, lb, ub, c){
   y <- runif(1, 0, c)
   if(pdf(x)<=y){x}else{(print(invalid))}}
   if(length(returnrandomsample > n)){returnrandomsample[1:n]}
-
 return(returnrandomsample)}
