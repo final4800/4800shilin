@@ -22,4 +22,11 @@ rvsample <- function(n, pdf, lb, ub, c){
 
 
 returnrandomsample <- c() #null vector
+
+  x <- runif(n, lb, ub)
+  y <- runif(c, lb, ub)
+  x[y<f(x)]
+
+
+
 return(returnrandomsample)
