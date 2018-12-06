@@ -20,12 +20,10 @@ rvsample <- function(n, pdf, lb, ub, c){
   if(!(intergratepdf[1] == 1)){stop("this is not a pdf P(a ≤ X ≤ b) = 1")}
   if(ub <= lb){stop("lb lower bound has to be less than the ub upper bound")}
   if(n <= 0){stop("n should be a positive integer number")}
-  if(length(returnrandomsample <= n)){}
+  if(length(returnrandomsample <= n)){
   x <- runif(n, lb, ub)
   y <- runif(1, 0, c)
-  pdf(x)
-  x[y<f(x)]
+  if(pdf(x)<=y){x}else{(print(invalid))}}
+  if(length(returnrandomsample > n)){returnrandomsample[1:n]}
 
-
-
-return(returnrandomsample)
+return(returnrandomsample)}
