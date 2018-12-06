@@ -15,4 +15,4 @@ ImportS: ggplot2
 #' @export
 #' 
 
-rvsample <- function(n, f, a, b, c)
+rvsample <- function(n, f, a, b, c)  
