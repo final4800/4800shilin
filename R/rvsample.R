@@ -19,3 +19,7 @@ rvsample <- function(n, pdf, lb, ub, c){
   if(!(intergratepdf[1] == 1)){stop("this is not a pdf P(a ≤ X ≤ b) = 1")}
   if(ub <= lb){stop("lb lower bound has to be less than the ub upper bound")}
   if(n <= 0){stop("n should be a positive integer number")}}
+
+
+returnrandomsample <- c() #null vector
+return(returnrandomsample)
