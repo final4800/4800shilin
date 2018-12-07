@@ -13,9 +13,9 @@ rvsample(n, pdf, lb, ub, c)
 
 \item{lb}{a numeric that is the lower bound of the random variable you wish to sample from}
 
-\item{ub}{a numeric that is the upper bound of the random variable you wish to sample from m, so P(a ≤ X ≤ b) = 1.}
+\item{ub}{a numeric that is the upper bound of the random variable you wish to sample from m, so P(a <= X <= b) = 1.}
 
-\item{c}{a numeric that is such that f(x) ≤ C for all values of x}
+\item{c}{a numeric that is such that f(x) <= C for all values of x}
 }
 \value{
 a random sample of size n from the rv with pdf provided to the function, using rejection sampling
